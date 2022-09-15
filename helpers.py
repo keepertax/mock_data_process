@@ -10,7 +10,7 @@ fake = faker.Faker()
 class Model:
     def __init__(self):
         """reads from a local file"""
-        sleep.time(5)
+        time.sleep(5)
         print('model initialized')
 
     def __call__(self, raw):
